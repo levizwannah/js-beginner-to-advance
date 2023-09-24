@@ -70,5 +70,71 @@ In Javascript, we have 8
 7. Object - A complex data type having properties and methods (functions). **Derived data type**
 8. NaN - (Not a Number)
 
-# Assignment
-- Write a program that takes in 3 numbers and outputs their average.
+# Exercise 1
+- Write a program that takes in 3 numbers and outputs their average.  
+
+==========================================
+
+# Lesson 3
+This lesson covers assignments and operators. At the end of the lesson, there is an exercise to test what you have learnt so far.
+
+## Assignment
+Designating the value for a variable.
+`x = 5;`.  
+An assignment can be written as a statement or expression.
+
+## Operators
+### Addition (+)
+- for numbers: returns the sum.
+- for strings: concatenates the operands
+### Subtraction (-)
+- only works on numbers: returns the difference from left to right.
+### Multiplication (*)
+- only works on numbers: returns the product.
+### Division (/)
+- only works on numbers: returns the quotient.
+- division by 0 return `Infinity`. Doesn't throw an error.
+### Modulo (%)
+- only works on numbers: (mainly integers). Divides right by left and returns the remainder of the division.
+### Exponentiation (**)
+- works on numbers. 
+- raises x to a power y. `x ** y`
+- accepts BigInts as operands unlike `Math.pow(x, y)`
+### Augmented Assignment
+- combining assignment with a mathematical operation.
+- done to keep code clean and concise.
+- usually the operator followed by the `=` sign.
+  - x += 1 <=> x = x + 1;
+  - x -= 1 <=> x = x - 1;
+  - x *= 1 <=> x = x * 1;
+  - x /= 1 <=> x = x / 1;
+  - x %= 1 <=> x = x % 1;
+  - x **= 3 <=> x = x ** 3;
+### Increments and Decrements
+`++` and `--` operators are used for incrementing or decrementing a value by 1. They are unary operators.
+
+- Prefix-Increment: Increments and returns the incremented value. `++x`
+- Postfix-Increment: Increments but returns the initial value. `x++`
+- Prefix-Decrement: Decrements and returns the decremented value. `--x`
+- Postfix-Decrement: Decrements but returns the initial value. `x--`
+
+# Exercise 2
+Write a program that changes a given amount of money in dollars($) to smaller amounts.  
+For example, if the user enters 11.56, your program should output:
+```
+$11.56 consists of:
+11 dollars,
+2 quarters,
+0 dimes,
+1 nickels, and
+1 pennies
+```
+> **Conversion table:**  
+1 dollar = 100 cents  
+1 Quarter = 25 cents  
+1 dime = 10 cents  
+1 nickel = 5 cents  
+1 penny = 1 cent
+
+# Reading Exercise 1
+Read on operator precedence. That is, if multiple operators are in a single expression, in what order are they evaluated?
