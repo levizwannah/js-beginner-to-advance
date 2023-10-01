@@ -32,6 +32,16 @@ x++; // x = x + 1; x += 1;
 x--; // x = x - 1; x -= 1;
 
 ++x; // x = x + 1;
+let r = sum(n) + 3;
+
+let pI = (x) => {
+    let prev = x;
+    x = x + 1;
+    return prev;
+}
+
+let p = 1 + pI(x);
+
 
 let v = 10 + (++x);
 v = 10 + (x++);

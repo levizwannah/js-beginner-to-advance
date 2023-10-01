@@ -138,3 +138,54 @@ $11.56 consists of:
 
 # Reading Exercise 1
 Read on operator precedence. That is, if multiple operators are in a single expression, in what order are they evaluated?
+
+# Lesson 4
+## Software development process
+### Requirements specification
+  - Understand the problem to address.
+  - Document what the software must do.
+  - A lot of user-developer interactions.
+  - Functional requirement: what the software must do.
+  - Non-functional requirements: how the software will do what it must do.
+  - A critical study of the problem is usually required to identify the functional requirements of the software.
+
+### System analysis
+  - Analyze dataflow to determine system input from output.
+  - Identify the output first, then determine the input.
+
+### System Design
+  - How to determine the output from input.
+  - breaks the problem into smaller components.
+  - choose how to implement these components.
+  - each component is a subsystem.
+
+  > system analysis and design describes the: Input, Process, and Output (IPO)
+
+### Implementation
+  - convert the system design into programs.
+  - each component has its own program.
+  - programs are integrated to work together.
+  - involves coding, unit-testing, debugging
+  - debugging removes bugs (errors)
+
+### Testing
+  - ensures that the software meets the requirement specification
+  - remove hidden bugs.
+  - usually done by another team.
+  - types: unit, integration, stress, etc
+  - can be automated.
+
+### Deployment
+  - make the software available to the users
+  - hosted on a server, or user devices
+
+### Maintenance
+  - improve and update the software
+  - add new features
+  - fix hidden bugs
+  - ever-changing environment
+  - adapt to new technologies
+  - fix security issues
+
+## SDLC example
+- refer to the previous example
