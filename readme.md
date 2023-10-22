@@ -194,18 +194,20 @@ Read on operator precedence. That is, if multiple operators are in a single expr
 ## Selection
 ### Boolean
 The bool data type has two values: `true` and `false`.
-
-#### Relational Operators
-These are operators that evaluate to `true` or `false`.  
+### Logical Operators
+These operators are based on the rules of Logic and return a Boolean.
+- ! : The `Not` or `Negation` Operator. E.g: `!A;`
 - && : The `AND` operator. E.g: `A && B;`
 - || : The `OR` operator. E.g: `A || B;`
+
+#### Relational Operators
+These are operators that compare and return `true` or `false`.  
 - < : The `Less Than` Operator. E.g: `A < B;`
 - <= : The `Less Than or Equal To` Operator. E.g: `A <= B;`
 - > : The `Greater Than` Operator. E.g: `A > B;`
 - >= : The `Greater Than or Equal To` Operator. E.g: `A >= B;`
 - == : The `Equal To` Operator. E.g: `A == B;`
 - != : The `Not Equal To` Operator. E.g: `A != B;`
-- ! : The `Not` or `Negation` Operator. E.g: `!A;`
 - === : The `Strict Equality` Operator. E.g: `A === B;`
 - !== : The `Strict Inequality` Operator. E.g: `A !== B;`
 
@@ -252,5 +254,24 @@ else if(condition) {
 .
 else {
   // optional else block
+}
+```
+### Exercise
+Given two numbers num1 and num2, return the maximum and the minimum. Write your code in the function below.
+```js
+function max(num1, num2) {
+  let m;
+
+  // your code here...
+  
+  return m;
+}
+
+function min(num1, num2) {
+  let m;
+  
+  // your code here...
+  
+  return m;
 }
 ```
