@@ -189,3 +189,68 @@ Read on operator precedence. That is, if multiple operators are in a single expr
 
 ## SDLC example
 - refer to the previous example
+
+# Lesson 5
+## Selection
+### Boolean
+The bool data type has two values: `true` and `false`.
+
+#### Relational Operators
+These are operators that evaluate to `true` or `false`.  
+- && : The `AND` operator. E.g: `A && B;`
+- || : The `OR` operator. E.g: `A || B;`
+- < : The `Less Than` Operator. E.g: `A < B;`
+- <= : The `Less Than or Equal To` Operator. E.g: `A <= B;`
+- > : The `Greater Than` Operator. E.g: `A > B;`
+- >= : The `Greater Than or Equal To` Operator. E.g: `A >= B;`
+- == : The `Equal To` Operator. E.g: `A == B;`
+- != : The `Not Equal To` Operator. E.g: `A != B;`
+- ! : The `Not` or `Negation` Operator. E.g: `!A;`
+- === : The `Strict Equality` Operator. E.g: `A === B;`
+- !== : The `Strict Inequality` Operator. E.g: `A !== B;`
+
+> **Note**: The strict equality and strict inequality operators are not available in statically typed languages like C++ or Java. They are used on dynamically and weakly typed languages like JavaScript.
+
+### If Construct
+The IF construct executes the code in a block only if its condition evaluates to true.  
+
+*Syntax*:
+```js
+if(condition) {
+  // statements...
+}
+
+```
+### If-else construct
+The if-else constructs executes the statement in the if-block if its condition evaluates to true. Otherwise, it executes the statements in the else-block.
+
+*Syntax*:
+```js
+if(condition) {
+  // statements...
+}
+else {
+  // statements ...
+}
+```
+### Multi-way If-Else Constructs
+The multi-way IF-Else construct executes the first of many if-constructs that evaluates to true. Otherwise, it executes the statements in the else-block if there is an else block
+
+*Syntax*:  
+```js
+if(condition) {
+  // statements...
+}
+else if(condition) {
+  // statements...
+}
+else if(condition) {
+  // statements
+}
+.
+.
+.
+else {
+  // optional else block
+}
+```
