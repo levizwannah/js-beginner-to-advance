@@ -275,3 +275,47 @@ function min(num1, num2) {
   return m;
 }
 ```
+
+### Conditional Expressions
+Expressions that evaluate to `true` or `false`
+```js
+let variable = 10 < 20 && x == y;
+let anotherVar = (x && y) || (x - y == 20); 
+
+```
+## Switch Statements
+Executes statement based on the value of a variable or an expression
+
+```js
+switch(expressionOrVariable) {
+  case 'value1':
+    {
+      // do something
+      break;
+    }
+  case 'value2':
+    {
+      // do something
+      break;
+    }
+  default: 
+    {
+      // do nothing
+    }
+}
+
+```
+
+### Operator Precedence (Bonus)
+| `var++` and `var--` (Postfix)  
+| `+`, `-` (Unary plus and minus), `++var` and `--var` (Prefix)  
+| (type) (Casting)  
+| `!` (Not)  
+| `*, /, %` (Multiplication, division, and remainder)  
+| `+, -` (Binary addition and subtraction)  
+| `<, <=, >, >=` (Relational)  
+| `==, !=` (Equality)  
+| `&&` (AND)  
+| `||` (OR)  
+| `=, +=, -=, *=, /=, %=` (Assignment operator)  
+V
