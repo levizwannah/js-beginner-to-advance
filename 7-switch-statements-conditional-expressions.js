@@ -1,36 +1,38 @@
-// let age = 20;
-// let salary = 200000;
+// // conditional expressions
+// let age = 26;
 
-// if(age === 10) {
-//     console.log('you are 10 years old')
-// }
-// if(age === 20) {
-//     console.log('you are 20 years old')
+// let isEligible = age >= 18 && !(age > 40);
+// let val = 0;
+
+// switch(val) {
+//     case 0: 
+//     case 1:
+//         {
+//             console.log(`val is 0 or 1`);
+//             break;
+//         }
+//     case 2: 
+//         {
+//             console.log(`val is 2`)
+//             break;
+//         }
+//     default:
+//         {
+//             console.log('nothing matched');
+//         }
 // }
 
-// switch(age > 20) {
-//     case false: {
-//         console.log('You are 10 years old');
-        
-//         break;
-//     }
-//     case true: {
-//         console.log('You are 20 years old');
-//         break;
-//     }
-//     default: {
-//         console.log('default executed');
-//     }
-// }
+// let x = age++ || age-- || -1 || ++age && 1 + 2 && true || !isEligible && age >= 5 * 34 || age === 4;
+// let m = true && false || true;
 
 function max(num1, num2) {
     let m;
-  
+
     m = (num1 > num2) ? num1 : num2;
-    
+
     return m;
 }
-
+  
 function min(num1, num2) {
     let m;
 
@@ -41,9 +43,8 @@ function min(num1, num2) {
 
 const prompt = require('prompt-sync')();
 
-let n1 = prompt('Enter a number: ');
-let n2 = prompt('Enter another number: ');
+let n1 = prompt("Enter number 1: ");
+let n2 = prompt("Enter number 2: ");
 
-
-console.log(`${max(n1, n2)} is the max of ${n1} && ${n2}`);
-console.log(`${min(n1, n2)} is the min of ${n1} && ${n2}`)
+console.log(`The max of ${n1} && ${n2} is ${max(n1, n2)}`);
+console.log(`The min of ${n1} && ${n2} is ${min(n1, n2)}`);
