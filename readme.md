@@ -319,3 +319,34 @@ switch(expressionOrVariable) {
 | `||` (OR)  
 | `=, +=, -=, *=, /=, %=` (Assignment operator)  
 V
+
+# Lesson 8
+## Loops
+Executes a block of statement while certain condition is true.
+### While Loop
+```js
+let condition = true; // pre
+
+while(condition === true) {
+  // condition
+  // post-execution
+}
+
+```
+### Do-While Loop
+```js
+let condition = true; // pre
+
+do {
+  // statement
+  // post-execution
+}
+while(condition === true);
+```
+### For Loop
+```js
+for(let condition = true; condition === true; post-execution) {
+  // statement
+}
+
+```
