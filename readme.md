@@ -356,3 +356,83 @@ for(let condition = true; condition === true; post-execution) {
 
 1. Given two integers (n1 and n2) find the Greatest common divisor of the two numbers.
 2. Given a string S, determine if S is a palindrome. A palindrome is a string that spells the same when reversed.
+
+# Lesson 9
+## Functions
+Functions are reusable block of codes. They can simplify and organize one's code.
+
+### Defining a function
+```js
+function functionName(arg1, arg2, ...) {
+  // code...
+  return something|nothing
+}
+
+const functionName = (arg1, arg2, ...) => {
+  // code ...
+  return something|nothing
+}
+```
+### Anonymous functions
+Anonymous functions are functions that do not have a name. 
+```js
+function(arg1, arg2, ...){
+  // code ...
+}
+
+() => {
+  // code ...
+}
+```
+### Calling a Function
+see the below example
+```js
+const sum = (a, b) => {
+  return a + b
+}
+
+// call the function
+let output = sum(1, 2);
+```
+### Scopes
+The scope of a programming element is the context in which it can be accessed.
+1. Local Scope: Accessible only in the programming element it was declared in.
+2. Global Scope: Accessible throughout the program.
+3. Block Scope (Js specific): Accessible only in the block it was declared in.
+
+```js
+var title = "Mr."; // global variable
+
+function joinName(firstName, lastName) {
+  let fullName = `${title} ${firstName} ${lastName}`; // fullName is a local variable;
+
+  return fullName;
+}
+
+{
+  // not the same as global title
+  // accessible only in this block
+  let title = "Mrs."; // block-scoped
+
+  // code ...
+}
+
+console.log(title); // logs the global title.
+```
+
+### Default Arguments
+Default arguments are the values automatically given to a parameter in a function if no value was passed for the parament when the function was called.
+
+```js
+const sum = (a = 1, b = 2) => {
+  return a + b;
+}
+
+console.log(sum(4, 5)); // logs 9
+console.log(sum()); // logs 3 (1 + 2)
+
+```
+
+### Exercise
+Write a function that converts Hexadecimal numbers to decimal numbers.
+>**Hint:** Use the ASCII Value of the characters.
