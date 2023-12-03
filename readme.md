@@ -421,7 +421,7 @@ console.log(title); // logs the global title.
 ```
 
 ### Default Arguments
-Default arguments are the values automatically given to a parameter in a function if no value was passed for the parament when the function was called.
+Default arguments are the values automatically given to a parameter in a function if no value was passed for the parameter when the function was called.
 
 ```js
 const sum = (a = 1, b = 2) => {
