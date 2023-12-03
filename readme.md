@@ -350,3 +350,9 @@ for(let condition = true; condition === true; post-execution) {
 }
 
 ```
+
+### Exercise
+**Use Loops to solve the below problems:**  
+
+1. Given two integers (n1 and n2) find the Greatest common divisor of the two numbers.
+2. Given a string S, determine if S is a palindrome. A palindrome is a string that spells the same when reversed.
